@@ -1,0 +1,11 @@
+.status {
+  background-color: red;
+  padding: 1px 9px;
+  border-radius: 50%;
+}
+.online {
+    background-color: green;
+}
+.name {
+  color: blueviolet;
+}

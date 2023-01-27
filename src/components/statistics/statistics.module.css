@@ -1,0 +1,16 @@
+.statistics {
+  background-color: rgb(154, 250, 250);
+  border: double darkgoldenrod 1px;
+}
+.title {
+}
+.item {
+}
+.label {
+}
+.percentage {
+}
+
+.stat-list {
+  color: darkolivegreen;
+}
