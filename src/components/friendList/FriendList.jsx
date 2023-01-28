@@ -15,7 +15,7 @@ export const FriendList = ({ friends }) => {
       />
     );
   });
-  return (<ul className={css['friend-list']}>{list}</ul>);
+  return <ul className={css['friend-list']}>{list}</ul>;
 };
 
 FriendList.propTypes = {

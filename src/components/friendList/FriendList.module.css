@@ -1,3 +1,9 @@
-.friend-list{
-    list-style: none;
+.friend-list {
+  list-style: none;
+  background-color: rgb(180, 180, 180);
+  padding: auto;
+  position: relative;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
 }

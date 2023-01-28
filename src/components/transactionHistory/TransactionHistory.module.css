@@ -1,0 +1,31 @@
+table {
+  font-size: 12px;
+}
+th {
+  background-color: rgb(192, 96, 17);
+  color: white;
+  height: 25px;
+}
+td {
+  color: #4d4c4c;
+  height: 25px;
+}
+th:first-child,
+td:first-child {
+  text-align: left;
+  padding-left: 20px;
+  width: 30%;
+}
+tr {
+  background-color: rgb(252, 252, 252);
+}
+.transaction-history {
+  width: 80%;
+  max-width: 350px;
+  background-color: rgb(196, 215, 255);
+  margin: 0 auto;
+  text-align: center;
+}
+tr:nth-child(even) {
+  background-color: #dadada;
+}

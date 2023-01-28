@@ -1,16 +1,66 @@
 .statistics {
-  background-color: rgb(154, 250, 250);
-  border: double darkgoldenrod 1px;
+  background-color: rgb(221, 219, 219);
+  padding: auto;
+  position: relative;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .title {
+  text-transform: uppercase;
+  font-size: 15px;
+  color: rgb(114, 114, 114);
+  display: grid;
+  place-items: center;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 250px;
+  height: 50px;
+  background-color: rgb(241, 241, 241);
 }
 .item {
+  display: grid;
+  flex: 1;
+  height: 100%;
+}
+.item:nth-child(1) {
+  background-color: hsl(120, 100%, 40%);
+}
+.item:nth-child(2) {
+  background-color: hsl(240, 100%, 40%);
+}
+.item:nth-child(3) {
+  background-color: hsl(60, 100%, 40%);
+}
+.item:nth-child(4) {
+  background-color: hsl(180, 100%, 40%);
+}
+.item:nth-child(5) {
+  background-color: hsl(300, 100%, 40%);
 }
 .label {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
 }
 .percentage {
+  font-weight: 700;
+  font-size: 15px;
+  color: white;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 .stat-list {
-  color: darkolivegreen;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  width: 80%;
+  max-width: 250px;
+  height: 50px;
 }

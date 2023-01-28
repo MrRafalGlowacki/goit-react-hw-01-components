@@ -1,11 +1,29 @@
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(223, 223, 223);
+  width: 80%;
+  max-width: 250px;
+  height: 40px;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 10px;
+  box-shadow: 5px 8px 5px 0px rgba(0, 0, 0, 0.75);
+}
 .status {
   background-color: red;
-  padding: 1px 9px;
+  padding: 9px 9px;
   border-radius: 50%;
 }
 .online {
-    background-color: green;
+  background-color: green;
+}
+.avatar {
+  padding-left: 2%;
 }
 .name {
-  color: blueviolet;
+  padding-left: 2%;
 }
