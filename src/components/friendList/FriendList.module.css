@@ -1,7 +1,7 @@
 .friend-list {
   list-style: none;
   background-color: rgb(180, 180, 180);
-  padding: auto;
+  /* padding: auto; */
   position: relative;
   text-align: center;
   padding-top: 10px;
