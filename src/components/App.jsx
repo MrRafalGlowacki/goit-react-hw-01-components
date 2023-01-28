@@ -2,9 +2,11 @@ import React from 'react';
 import { Profile } from './profile/profile';
 import { Statistics } from './statistics/statistics';
 import { FriendList } from './friendList/FriendList';
+import { TransactionHistory } from './transactionHistory/TransactionHistory';
 import user from './profile/user.json';
 import data from './statistics/data.json';
-import friends from './friendList/friends';
+import friends from './friendList/friends.json';
+import transactions from './transactionHistory/transactions.json';
 
 export const App = () => {
   return (
@@ -19,6 +21,7 @@ export const App = () => {
       <Statistics title="Upload stats" stats={data} />
       {/* <Statistics stats={data} /> */}
       <FriendList friends={friends} />;
+      <TransactionHistory items={transactions} />;
     </>
   );
 };
