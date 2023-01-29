@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import css from './profile.module.css';
+import css from './Profile.module.css';
 
 export const Profile = ({ username, tag, location, avatar, stats }) => {
   return (
@@ -12,7 +12,6 @@ export const Profile = ({ username, tag, location, avatar, stats }) => {
           <p className={css.tag}>@{tag}</p>
           <p className={css.location}>{location}</p>
         </div>
-
         <ul className={css.stats}>
           <li>
             <span className={css.label}>Followers</span>
@@ -43,13 +42,3 @@ Profile.propTypes = {
   location: PropTypes.string,
   avatar: PropTypes.string,
 };
-
-// {
-//   /* <Profile
-//   username={user.username}
-//   tag={user.tag}
-//   location={user.location}
-//   avatar={user.avatar}
-//   stats={user.stats}
-// /> */
-// }

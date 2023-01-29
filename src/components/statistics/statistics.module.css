@@ -1,6 +1,5 @@
 .statistics {
   background-color: rgb(221, 219, 219);
-  /* padding: auto; */
   position: relative;
   text-align: center;
   padding-top: 20px;
@@ -53,7 +52,6 @@
   align-items: flex-start;
   justify-content: center;
 }
-
 .stat-list {
   margin: 0 auto;
   display: flex;

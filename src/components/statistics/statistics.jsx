@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import css from './statistics.module.css';
+import css from './Statistics.module.css';
 
 export const Statistics = ({ title, stats }) => {
   const filesList = stats.map(stat => (
@@ -9,7 +9,6 @@ export const Statistics = ({ title, stats }) => {
       <span className={css.percentage}>{stat.percentage}%</span>
     </li>
   ));
-
   return (
     <>
       <section className={css.statistics}>
